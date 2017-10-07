@@ -159,7 +159,7 @@ void displayNotePositions(notePosition *notes){
 		}
 	}
 
-	for (int i = 5; i >= 0; --i)
+	for (int i = 0; i <6; ++i)
 	{
 		printf("%s\n", str[i].c_str());
 	}
